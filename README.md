@@ -8,6 +8,7 @@
 
 For this project we are going to try to forecast the average monthly water level for Chennai India’s 4 main reservoirs in Chennai India.The thershold of success of our model doing well enough that if it gets a RMSE of above an 65%. The reason for doing so is that in 2019 Chennai experienced a water crisis which had millions of people left without water and required many trains and truck to get the city water. If we can forecast monthly demand for a given reservoir we can get an idea of  how and when the cities reservoirs runs out of water. This information can be used later down the line to predict the future water demand. The water level is measured in millions of cubic feet. We are going to score are predictions using RMSE. Water demand forecasting is hard in general so we have a rather modest goal for our model of scoring 65% which would translate to our model getting 65% of the variance of our data.
 
+<img src="./assets/chennai-gif_0_SM.gif" width="1400px">
 ## Executive Summary
 
 On 19 June 2019, Chennai city officials declared that "Day Zero", or the day when almost no water is left, had been reached, as all the four main reservoirs supplying water to the city had run dry.  First in this project we first combined our two given data sets we then formatted them so that they would be in the correct format for time-series analysis and forecasting.
@@ -69,13 +70,14 @@ Cholavaram Linear Regression| 83% | 74%
 
 ## Conclusions and Recommendations
 
-All of our models mangaged to get above our problem statments goal of higher score than 65% RMSE. In fact most of them did quite well.
-Some this might be explained by even though we were dealing with nonstationary time-series our X and Y generally don't stay perfectly over long periods of time.
-In our model we saw that significant leading correlations with lags were hard to find so our regression models may be better at predicting the present than the future. Still at the end of the day regression models are quite powerful as well as being interpretable.
+All of our models mangaged to get above our problem statments goal of higher score than 65% RMSE. In fact most of them did quite well. Some this might be explained by even though we were dealing with nonstationary time-series our X and Y generally don't stay perfectly over long periods of time. In our model we saw that significant leading correlations with lags were hard to find so our regression models may be better at predicting the present than the future. Still at the end of the day regression models are quite powerful as well as being interpretable.
 
 There are many things we can do in the future such as implementing more complex Models such as ARIMA and SARIMA models. Another thing we could do is run the are existing models with differencing the data. Another thing we could have done is regularize the data.
 
-In terms of the data it was fascinating to see how in the data how much everything is man made from the reservoirs themselves to the water scarcity problem with the data. I would suggest better collection methods of water during the monsoon season. Another thing I would suggest is to get a better record of how the the people use the water. This is truly a crisis that unfortunately  awaits most cites unless we take the proper action.
+It goes without being said but always getting more data is better. It would be nice to have such features such as temperature and exact water usage.
+
+In terms of the data it was fascinating to see how in the data how much everything is man made from the reservoirs themselves to the water scarcity problem with the data. I would suggest better collection methods of water during the monsoon season. Another thing I would suggest is to get a better record of how the the people use the water. This is truly a crisis that unfortunately awaits most cites unless we take the proper action.
+
 
 ## References
 
