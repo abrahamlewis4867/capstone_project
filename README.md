@@ -54,8 +54,8 @@ Our data comes from [Chennai Metro and Sewer](https://chennaimetrowater.tn.gov.i
 
 ## Models
 
-|Model Name | Training Score | Testing Score|
-|-| |-| |-|
+Model Name | Training Score | Testing Score
+- | -| -
 Chembarambakkam Baseline|0|-67%
 Chembarambakkam Linear Regression| 91%  | 87%
 Chembarambakkam Linear Regression(stats model)| 91%  | 87%
@@ -65,7 +65,7 @@ Poondi Linear Regression| 87% | 69%
 Redhills Baseline|0|-339%
 Linear Regression Redhills| 85% | 77%
 Cholavaram Baseline|0|-152%
-|Cholavaram Linear Regression| 83% | 74%|
+Cholavaram Linear Regression| 83% | 74%
 
 ## Conclusions and Recommendations
 
