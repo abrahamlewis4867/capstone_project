@@ -9,6 +9,7 @@
 For this project we are going to try to forecast the average monthly water level for Chennai India’s 4 main reservoirs in Chennai India.The thershold of success of our model doing well enough that if it gets a RMSE of above an 65%. The reason for doing so is that in 2019 Chennai experienced a water crisis which had millions of people left without water and required many trains and truck to get the city water. If we can forecast monthly demand for a given reservoir we can get an idea of  how and when the cities reservoirs runs out of water. This information can be used later down the line to predict the future water demand. The water level is measured in millions of cubic feet. We are going to score are predictions using RMSE. Water demand forecasting is hard in general so we have a rather modest goal for our model of scoring 65% which would translate to our model getting 65% of the variance of our data.
 
 <img src="./assets/chennai-gif_0_SM.gif" width="1400px">
+
 ## Executive Summary
 
 On 19 June 2019, Chennai city officials declared that "Day Zero", or the day when almost no water is left, had been reached, as all the four main reservoirs supplying water to the city had run dry.  First in this project we first combined our two given data sets we then formatted them so that they would be in the correct format for time-series analysis and forecasting.
