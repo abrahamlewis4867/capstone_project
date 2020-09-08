@@ -55,7 +55,7 @@ Our data comes from [Chennai Metro and Sewer](https://chennaimetrowater.tn.gov.i
 ## Models
 
 |Model Name | Training Score | Testing Score|
-- | -| -
+|-| |-| |-|
 Chembarambakkam Baseline|0|-67%
 Chembarambakkam Linear Regression| 91%  | 87%
 Chembarambakkam Linear Regression(stats model)| 91%  | 87%
